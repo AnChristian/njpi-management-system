@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  <servlet>
+    <servlet-name>MainAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.MainAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BbsAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.BbsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NewsAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.NewsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoleAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.RoleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SectionAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.SectionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TopicAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.TopicAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserAction</servlet-name>
+    <servlet-class>edu.njcc.rj1621.action.UserAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>MainAction</servlet-name>
+    <url-pattern>/MainAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BbsAction</servlet-name>
+    <url-pattern>/BbsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsAction</servlet-name>
+    <url-pattern>/NewsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleAction</servlet-name>
+    <url-pattern>/RoleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SectionAction</servlet-name>
+    <url-pattern>/SectionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopicAction</servlet-name>
+    <url-pattern>/TopicAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAction</servlet-name>
+    <url-pattern>/UserAction</url-pattern>
+  </servlet-mapping>
+
+</web-app>

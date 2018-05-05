@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#h{
+    width: 1200px;
+    height: 40px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#c{
+    width: 1200px;
+    height: 600px;
+    margin: 20px auto;
+    clear: both;
+}
+
+#list{
+    width: 750px;
+    height: 350px;
+    margin-left: 20px;
+    border-right: 1px solid #cccccc;
+    float: left;
+    overflow: auto;
+}
+
+#listMgr{
+    width: 350px;
+    height: 550px;
+    margin-right: 20px;
+    float: right;
+}
+
+#t1{
+    border: 1px solid black;
+}
+
+#t1 tr td{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#content{
+    width: 200px;
+    height: 200px;
+}
+
+#queding{
+    margin-top: 40px;
+    padding-left: 70px;
+}
+
+.slec{
+    width: 200px;
+    height: 30px;
+}
+
+#deleteB{
+	text-decoration: underline;
+}
+#modifyB{
+	text-decoration: underline;
+}
+#deleteB:HOVER {
+	cursor: pointer;
+}
+#modifyB:HOVER {
+	cursor: pointer;
+}
+
+.tr:hover{
+	background: #699bff;
+}
+
+#back:hover{
+	background-color: #eaeaea;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+body {
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+#role #title {
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+* {
+	margin: 0px;
+	margin: 0px;
+}
+#role #ta2 #form1 {
+	float: right;
+	position: absolute;
+	top: 320px;
+	left: 853px;
+}
+#role #ta2 #form1 #queding {
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 55px;
+}
+
+#ta{
+    border-right:solid 1px #ccc;
+    width: 750px;
+    height: 800px;
+    float: left;
+}
+#role #top {
+	background-color: #0066FF;
+}
+#t1D{
+	height: 350px;
+	width: 350px;
+	overflow: auto;
+}
+#deleteB{
+	text-decoration: underline;
+}
+#modifyB{
+	text-decoration: underline;
+}
+#deleteB:HOVER {
+	cursor: pointer;
+}
+#modifyB:HOVER {
+	cursor: pointer;
+}
+#back:hover{
+	background-color: #eaeaea;
+}

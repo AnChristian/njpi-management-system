@@ -1,0 +1,60 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#all {
+	height: 1100px;
+	width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px double #000000;
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
+#all  #form1  td  {
+	line-height: 40px;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#news{
+	overflow:auto;
+	height: 600px;
+	border: 1px solid #FF0000;
+	width: 1200px;
+	float: left;
+	background-color: #E5E5E5;
+}
+#all #form1 #server {
+	float: left;
+	height: 600px;
+	padding-left: 30px;
+	width: 260px;
+}
+#all #form1 #sub {
+	border: 1px solid #000000;
+	margin-top: 200px;
+	background-color: #E1E9FF;
+}
+#all #form1 #server #sub input {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #3399FF;
+}
+
+#all #form1 tr:hover {
+	background-color: rgb(0,255,255);
+	border: 1px solid #000000;
+}
+.clear {
+	clear: both;
+}
+#back{
+	position: relative;
+	z-index: 100;
+	
+}
+#back:hover{
+	background-color: #eaeaea;
+}

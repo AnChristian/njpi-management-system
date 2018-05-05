@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#title{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+#ta{
+    border-right: solid 1px #cccccc;
+    margin-left:100px;
+    width: 700px;
+    height: 350px;
+    float: left;
+    overflow: auto;
+}
+#box{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#t1{
+    border: 1px;
+    border-collapse: collapse;
+    width: 350px;
+    margin-left: 250px;
+    text-align: center;
+}
+#t1 td{
+    height: 30px;
+    border: 1px solid;
+}
+#ta2{
+	margin-right: 250px;
+    width: 250px;
+    float: right;
+    height: 400px;
+}
+#ta2 table td{
+    height: 100px;
+}
+#queding{
+    padding-top: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+#queding input{
+    width: 80px;
+}
+#q1{
+    padding-top: 400px;
+    padding-left: 470px;
+}
+#deleteB{
+	text-decoration: underline;
+}
+#modifyB{
+	text-decoration: underline;
+}
+#deleteB:HOVER {
+	cursor: pointer;
+}
+#modifyB:HOVER {
+	cursor: pointer;
+}
+#back:hover{
+	background-color: #eaeaea;
+}

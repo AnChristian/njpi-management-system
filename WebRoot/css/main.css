@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: ΢���ź�;
+}
+#b{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-attachment: scroll, fixed;
+    background-color: #666;
+    background-image: url("../img/overlay.png"), url("../img/banner.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    width: 100%;
+    height: 100%;
+
+}
+.q {
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 17%;
+}
+#t1,#t2,#t3,#t4,#t5{
+    border-right: solid 1px #b0b0b0;
+}
+#t1{
+    left:0%
+}
+#t2{
+    left: 17%;
+}
+#t3{
+    left: 34%;
+}
+#t4{
+    left:51%;
+}
+#t5{
+    left: 68%;
+}
+#t6{
+    width: 15%;
+    left: 85%;
+}
+
+
+.tt1{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity:0;
+}.wenzi{
+    position: absolute;
+    left: 43%;
+     top:38%;
+    font-size: 30px;
+    width: 30px;
+ }
